@@ -10,4 +10,5 @@
 		"eamodio.gitlens",
 		"ms-python.vscode-pylance",
 	],
+	"mounts": ["source=${localEnv:HOME}/.cache/huggingface/,target=/root/.cache/huggingface/,type=bind,consistency=cached"]
 }
